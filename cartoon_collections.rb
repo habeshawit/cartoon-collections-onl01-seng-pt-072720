@@ -1,7 +1,7 @@
 def roll_call_dwarves(names)
   i=0 
   while i<names.length 
-    names.each_with_index.map {|name, index| puts "#{index}. #{name}"}
+    names.each_with_index.map {|name, index| puts "#{index+1}. #{name}"}
     i+=1
   end
 end
