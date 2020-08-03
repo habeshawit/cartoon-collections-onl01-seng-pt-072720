@@ -12,8 +12,8 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(items)
-  
+  cheese_types = ["cheddar", "gouda", "camembert"]
   items.find {{item} item in cheese_types}
   # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
+  
 end
