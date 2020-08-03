@@ -7,8 +7,8 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(calls)
-  new_array = call.map {|call| if call.length > 4}
-  new_array.any?{|i| i ==true}
+  new_array = call.map {|call| call}
+  new_array.any?{|i| i == true}
 end
 
 def find_the_cheese# code an argument here
