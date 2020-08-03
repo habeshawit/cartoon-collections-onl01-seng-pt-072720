@@ -1,7 +1,7 @@
 def roll_call_dwarves(names)
   i=0 
   while i<names.length 
-    yield(names[i])
+    names.map {|name| puts "#{name}"}
     i+=1
   end
 end
