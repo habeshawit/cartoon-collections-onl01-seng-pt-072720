@@ -14,8 +14,6 @@ end
 def find_the_cheese(items)
   
   items.find {{item} item in cheese_types}
-  
-  if items.include?(cheese_types)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
